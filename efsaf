@@ -1,0 +1,4 @@
+echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $drt/.bash_profile
+echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $drt/.bash_profile
+echo 'export CELESTIA_WALLET='${CELESTIA_WALLET} >> $drt/.bash_profile
+source $HOME/.bash_profile
